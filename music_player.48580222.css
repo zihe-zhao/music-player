@@ -56,6 +56,12 @@ body {
   box-shadow: 0 4px 8px #0000001a;
 }
 
+.config-panel button:disabled {
+  cursor: not-allowed;
+  color: #666;
+  background-color: #ccc;
+}
+
 .config-panel button:active {
   background-color: #043567;
 }
