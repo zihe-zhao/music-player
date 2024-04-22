@@ -27,8 +27,9 @@ body {
   padding: 10px;
   position: fixed;
   top: 0;
-  bottom: 50%;
+  bottom: 30%;
   right: 0;
+  overflow-y: scroll;
   box-shadow: -2px 0 5px #00000080;
 }
 
@@ -40,7 +41,7 @@ body {
 .config-panel button {
   color: #fff;
   cursor: pointer;
-  background-color: #2b54c5;
+  background-color: #4565be;
   border: none;
   border-radius: 5px;
   outline: none;
@@ -116,7 +117,7 @@ input[type="range"]:hover {
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   cursor: pointer;
-  background-color: #2b54c5;
+  background-color: #4565be;
   border-radius: 50%;
   width: 12px;
   height: 12px;
@@ -125,7 +126,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 input[type="range"]::-moz-range-thumb {
   cursor: pointer;
-  background-color: #2b54c5;
+  background-color: #4565be;
   border-radius: 50%;
   width: 15px;
   height: 15px;
@@ -150,7 +151,7 @@ span {
   width: 180px;
   padding: 10px;
   position: fixed;
-  top: 50%;
+  top: 70%;
   bottom: 0;
   right: 0;
   overflow-y: scroll;
