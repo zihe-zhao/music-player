@@ -23,7 +23,7 @@ body {
 
 .config-panel {
   background-color: #f1f1f1;
-  width: 180px;
+  width: 200px;
   padding: 10px;
   position: fixed;
   top: 0;
@@ -148,7 +148,7 @@ span {
 
 .debug {
   background-color: #f1f1f1;
-  width: 180px;
+  width: 200px;
   padding: 10px;
   position: fixed;
   top: 70%;
